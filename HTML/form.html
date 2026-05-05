@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit" method="POST">
+  <label for="name">Your Name:</label>
+  <input type="text" id="name" name="name" placeholder="Enter your name">
+
+  <button type="submit">Submit</button>
+  <!-- Text -->
+<input type="text" placeholder="Full name">
+
+<!-- Password (hides characters) -->
+<input type="password" placeholder="Password">
+
+<!-- Email (validates email format) -->
+<input type="email" placeholder="you@example.com">
+
+<!-- Number -->
+<input type="number" min="1" max="100">
+
+<!-- Phone -->
+<input type="tel" placeholder="+91 00000 00000">
+
+<!-- Date -->
+<input type="date">
+
+<!-- Color picker -->
+<input type="color">
+
+<!-- Range slider -->
+<input type="range" min="0" max="100">
+
+<!-- Checkbox -->
+<input type="checkbox" id="agree" name="agree">
+<label for="agree">I agree to the terms</label>
+
+<!-- Radio buttons (only one can be selected) -->
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+
+<!-- File upload -->
+<input type="file" accept=".jpg,.png,.pdf">
+
+<!-- Hidden field (not shown to user) -->
+<input type="hidden" name="userId" value="123">
+
+<!-- Submit button -->
+<input type="submit" value="Send">
+
+<!-- Reset button (clears form) -->
+<input type="reset" value="Clear">
+</form>
+</body>
+</html>
